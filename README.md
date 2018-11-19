@@ -1,5 +1,5 @@
-# Universal-Sorter---JAVA
-Universal Sorter is a lightweight Utility class for sorting needs in JAVA. The utility class supports sorting any primitive type or object type (including String) in 5 different sorting algorithms.
+# Universal-Sorter---JAVA [Type-Safe]
+Universal Sorter is a lightweight Utility class for sorting needs in JAVA. The utility class supports sorting any primitive type or object type (including String) in 5 different sorting algorithms. Universal-Sort is Type-Safe and is free from type casting runtime-exceptions!
 
 
 ## NOTE:
