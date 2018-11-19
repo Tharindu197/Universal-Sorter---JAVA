@@ -21,7 +21,7 @@ Ascending, Descending
 * Merge-Sort (Optimized for large size arrays)
 
 ## Usage:
-Accepts any premitive or object type in an array.
+Accepts any primitive or object type array.
 
 #### Example (Bubble-Sort with Ascending order using String array):
 ```java
