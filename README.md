@@ -35,7 +35,7 @@ Accepts any primitive or object type array.
 
 #### Example (Insertion-Sort with Descending order using int array; inline):
 ```java
-        String[] sorted = UniversalSorter.insertionSort(new Integer[]{3, 7, 1, 2, 0, 4}, SortingOrder.DESCENDING);
+        int[] sorted = UniversalSorter.insertionSort(new Integer[]{3, 7, 1, 2, 0, 4}, SortingOrder.DESCENDING);
 ```
 ##### Output Array
 ```java
