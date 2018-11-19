@@ -39,7 +39,7 @@ Accepts any primitive or object type array.
 ```
 If you want array in Primitive type, convert it like this.
 ```java
-        int[] sortedPrimitiveArray =	ArrayUtils.toPrimitive(sorted);
+        int[] sortedPrimitiveArray =  Arrays.stream(sorted).mapToInt(Integer::intValue).toArray();
 ```
 ##### Output Array
 ```java
