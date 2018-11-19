@@ -44,6 +44,12 @@ Accepts any primitive or object type array.
 
 ### More examples with different algorithms
 
+* Bubble Sort:
+```java
+        String[] words = new String[]{"Cake", "Cage", "Orange", "Flora"};
+        String[] sorted = UniverselSorter.bubbleSort(words, SortingOrder.ASCENDING);
+```
+
 * Insertion Sort:
 ```java
         String[] words = new String[]{"Cake", "Cage", "Orange", "Flora"};
