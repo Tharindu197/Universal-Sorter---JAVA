@@ -42,7 +42,7 @@ Accepts any primitive or object type array.
         {7, 4, 3, 2, 1, 0}
 ```
 
-### More examples with different algorithms
+### More examples with different algorithms:
 
 * Bubble Sort:
 ```java
