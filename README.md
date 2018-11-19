@@ -37,7 +37,7 @@ Accepts any primitive or object type array.
 ```java
         Integer[] sorted = UniversalSorter.insertionSort(new Integer[]{3, 7, 1, 2, 0, 4}, SortingOrder.DESCENDING);
 ```
-If you want array in Primitive type, convert it like this.
+If you want above array in Primitive type, convert it like this.
 ```java
         int[] sortedPrimitiveArray =  Arrays.stream(sorted).mapToInt(Integer::intValue).toArray();
 ```
