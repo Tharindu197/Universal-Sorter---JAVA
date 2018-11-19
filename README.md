@@ -23,7 +23,7 @@ Ascending, Descending
 ## Usage:
 Accepts any primitive or object type array.
 
-#### Example (Bubble-Sort with Ascending order using String array):
+#### 1. Example (Bubble-Sort with Ascending order using String array):
 ```java
         String[] words = new String[]{"Cake", "Cage", "Orange", "Flora"};
         String[] sorted = UniversalSorter.bubbleSort(words, SortingOrder.ASCENDING);
@@ -33,7 +33,7 @@ Accepts any primitive or object type array.
         {"Cage", "Cake", "Flora", "Orange"}
 ```
 
-#### Example (Insertion-Sort with Descending order using int array; inline):
+#### 2. Example (Insertion-Sort with Descending order using int array; inline):
 ```java
         Integer[] sorted = UniversalSorter.insertionSort(new Integer[]{3, 7, 1, 2, 0, 4}, SortingOrder.DESCENDING);
 ```
