@@ -26,7 +26,7 @@ Accepts any primitive or object type array.
 #### Example (Bubble-Sort with Ascending order using String array):
 ```java
         String[] words = new String[]{"Cake", "Cage", "Orange", "Flora"};
-        String[] sorted = UniverselSorter.bubbleSort(words, SortingOrder.ASCENDING);
+        String[] sorted = UniversalSorter.bubbleSort(words, SortingOrder.ASCENDING);
 ```
 ##### Output Array
 ```java
@@ -35,7 +35,7 @@ Accepts any primitive or object type array.
 
 #### Example (Insertion-Sort with Descending order using int array; inline):
 ```java
-        String[] sorted = UniverselSorter.insertionSort(new Integer[]{3, 7, 1, 2, 0, 4}, SortingOrder.DESCENDING);
+        String[] sorted = UniversalSorter.insertionSort(new Integer[]{3, 7, 1, 2, 0, 4}, SortingOrder.DESCENDING);
 ```
 ##### Output Array
 ```java
@@ -47,29 +47,29 @@ Accepts any primitive or object type array.
 * Bubble Sort:
 ```java
         String[] words = new String[]{"Cake", "Cage", "Orange", "Flora"};
-        String[] sorted = UniverselSorter.bubbleSort(words, SortingOrder.ASCENDING);
+        String[] sorted = UniversalSorter.bubbleSort(words, SortingOrder.ASCENDING);
 ```
 
 * Insertion Sort:
 ```java
         String[] words = new String[]{"Cake", "Cage", "Orange", "Flora"};
-        String[] sorted = UniverselSorter.insertionSort(words, SortingOrder.ASCENDING);
+        String[] sorted = UniversalSorter.insertionSort(words, SortingOrder.ASCENDING);
 ```
 
 * Selection Sort:
 ```java
         String[] words = new String[]{"Cake", "Cage", "Orange", "Flora"};
-        String[] sorted = UniverselSorter.selectionSort(words, SortingOrder.ASCENDING);
+        String[] sorted = UniversalSorter.selectionSort(words, SortingOrder.ASCENDING);
 ```
 
 * Quick Sort:
 ```java
         String[] words = new String[]{"Cake", "Cage", "Orange", "Flora"};
-        String[] sorted = UniverselSorter.quickSort(words, SortingOrder.ASCENDING);
+        String[] sorted = UniversalSorter.quickSort(words, SortingOrder.ASCENDING);
 ```
 
 * Merge Sort:
 ```java
         String[] words = new String[]{"Cake", "Cage", "Orange", "Flora"};
-        String[] sorted = UniverselSorter.mergeSort(words, SortingOrder.ASCENDING);
+        String[] sorted = UniversalSorter.mergeSort(words, SortingOrder.ASCENDING);
 ```
